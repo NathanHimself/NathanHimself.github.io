@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/NathanHimself/NathanHimself.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NathanHimself/NathanHimself.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="./resorces/css/style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <img src="./resorces/9.jpg.webp" alt="tea logo">
+        <ul>
+            <li><a href="#objective">Our objective</a></li>
+            <li><a href="#featured">Most popular</a></li>
+            <li><a href="#location">Locations</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section id="objective">
+        <div id="objective-image">
+            <div class="banner-text">
+            <h2>Our Objective</h2>
+            <h4>Our objective is always to create the best teas, fast, delicius, and cheap</h4>
+            </div>
+        </div>
+    </section>
+    <section id="featured">
+            <div class="featured-text">
+                <h1>Featured Tea's</h1>
+                <p>The most popular tea's this month</p>
+            </div>
+            <div class="image-container">
+                <div class="image">
+                    <img src="./resorces/img-berryblitz.jpg" alt="black berry tea">
+                    <p>Black Berry</p>
+                </div>
+                <div class="image">
+                    <img src="./resorces/img-spiced-rum.jpg" alt="box of tea">
+                    <p>Spiced Rum</p>
+                </div>
+                <div class="image">
+                    <img src="./resorces/img-myrtle-ave.jpg" alt="">
+                    <p>Myrtle Ave</p>
+                </div>
+                <div class="image">
+                    <img src="./resorces/img-bedford-bizarre.jpg" alt="">
+                    <p>Bedford Bizarre</p>
+                </div>
+            </div>
+    </section>
+    <section id="location">
+        <div id="location-image">
+            <h2>Locations</h2>
+            <div class="row">
+            <div class="box">
+                <h3>Orgiva</h3>
+                <p>Calle Sierra Nevada</p>
+                <p>18400, Granada</p>
+            </div>
+            <div class="box">
+                <h3>Lanjaron</h3>
+                <p>Calle San Marcos</p>
+                <p>18600, Granada</p>
+            </div>
+            <div class="box">
+                <h3>Motril</h3>
+                <p>Calle Benito Gonzalez</p>
+                <p>20800, Motril</p>
+            </div>
+            </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-text">
+            <h2>Tea Cozy</h2>
+            <h5>contact@teacozy.com</h5>
+            <p>643-737-183</p>
+        </div>
+        <div class="copyright">
+            <p>© 2022 Tea Cozy</p>
+        </div>
+    </footer>
+</body>
+</html>
