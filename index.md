@@ -7,6 +7,133 @@
     <title>Tea Cozy</title>
     <link rel="stylesheet" href="./resorces/css/style.css">
 </head>
+    <style>
+        body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+
+.navbar {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: black;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar img {
+    height: 69px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    padding: 0px 25px;
+}
+
+.navbar ul li a {
+    color: seashell;
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+
+.navbar ul li a:active {
+    font-size: 20px;
+}
+
+#objective-image {
+    background-image: url(/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-text {
+    text-align: center;
+}
+
+.featured-text {
+    text-align: center;
+}
+
+.image-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+}
+
+.image {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#location-image {
+    height: 500px;
+    background-image: url(/resorces/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#location-image h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 1;
+    margin: 40px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.footer-text {
+    text-align: center;
+    height: 200px;
+}
+
+.copyright p {
+    float: left;
+    font-size: 15px;
+}
+    </style>
 <body>
     <header>
     <nav class="navbar">
