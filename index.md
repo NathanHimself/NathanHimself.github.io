@@ -137,7 +137,7 @@
 <body>
     <header>
     <nav class="navbar">
-        <img src="./resorces/9.jpg.webp" alt="tea logo">
+        <img src="./resorces/logo.jpg" alt="tea logo">
         <ul>
             <li><a href="#objective">Our objective</a></li>
             <li><a href="#featured">Most popular</a></li>
