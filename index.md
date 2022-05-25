@@ -55,7 +55,7 @@
 }
 
 #objective-image {
-    background-image: url(/img-locations-background.jpg);
+    background-image: url(../img-locations-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
@@ -94,7 +94,7 @@
 
 #location-image {
     height: 500px;
-    background-image: url(/resorces/img-mission-background.jpg);
+    background-image: url(../img-mission-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
